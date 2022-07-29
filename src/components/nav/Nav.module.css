@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+    padding: 1.5rem 2rem;
+}
+
+.closed__menu {
+    font-size: 2rem;
+}
+
+.closed__menu:hover {
+    cursor: pointer;
+}

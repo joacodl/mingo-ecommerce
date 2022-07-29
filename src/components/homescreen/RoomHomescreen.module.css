@@ -1,0 +1,42 @@
+.rooms {
+    padding: 0 0 10rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+}
+
+.list li:hover {
+    cursor: pointer;
+}
+
+.number {
+    font-size: 1.2rem;
+    transition: ease-in-out .1s;
+}
+
+.list li:hover .number {
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+.list li:first-of-type {
+    padding: 0 0 1rem;
+}
+
+.list li h3{
+    font-weight: 400;
+    font-size: 1.6rem;
+}

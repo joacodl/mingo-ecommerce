@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Variables */
+:root {
+  --text-green: #4BB543;
+  --text-gray: #aaaaaa;
+  --text-red: #a94442;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+/* General styles */
+
+p, a, span, button {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.section__title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.text__green {
+  color: var(--text-green);
+}
+
+.text__gray {
+  color: var(--text-gray);
+}
+
+.text__red {
+  color: var(--text-red);
+}
+
+
