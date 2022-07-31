@@ -1,0 +1,34 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    padding: 1.5rem 2rem;
+}
+
+.menuOpen {
+    background-color: white;
+    padding: 1.5rem 2rem 2rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+
+.icons i:first-child {
+    font-size: 1.75rem;
+    padding-top: .3rem;
+}
+
+.icons i:nth-child(n+2) {
+    font-size: 2rem;
+}
+
+.icons i:hover {
+    cursor: pointer;
+}
