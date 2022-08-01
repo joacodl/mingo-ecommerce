@@ -29,6 +29,38 @@
     font-size: 2rem;
 }
 
+.icons i:last-child {
+    margin-top: .25rem;
+}
+
 .icons i:hover {
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        padding: 1.5rem 4rem;
+    }
+
+    .menuOpen {
+        background-color: white;
+        padding: 1.5rem 4rem 3rem;
+    }
+
+    .icons {
+        gap: 3rem;
+        align-items: flex-start;
+    }
+    
+
+    .icons i:first-child {
+        font-size: 2.75rem;
+        padding-top: .3rem;
+        line-height: 2.75rem;
+    }
+    
+    .icons i:nth-child(n+2) {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
 }

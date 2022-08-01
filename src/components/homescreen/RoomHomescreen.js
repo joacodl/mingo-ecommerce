@@ -34,7 +34,9 @@ const RoomHomescreen = () => {
                 <h3>Cocina</h3>
             </li>
         </ul>
-        <img src={roomImg} alt="" />
+        <div className={styles.img__wrapper}>
+            <img src={roomImg} alt="" className={styles.img} />
+        </div>
     </div>
   )
 }

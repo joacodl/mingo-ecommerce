@@ -26,7 +26,7 @@ const Footer = () => {
             </li>
         </ul>
         <div className={styles.contacto}>
-            <h4>¡Esperamos tu contacto!</h4>
+            <h3>¡Esperamos tu contacto!</h3>
             <a href="tel:0000000"> +54 (999) 999-999 </a>
             <span>info@mingo.com</span>
         </div>

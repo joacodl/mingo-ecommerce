@@ -21,7 +21,7 @@
 
 .username {
     display: flex;
-    gap: .5rem;
+    gap: 1rem;
     align-items: flex-end;
 }
 
@@ -38,4 +38,33 @@
 
 .open__nav__links li a {
     font-size: 1.6rem;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .open__nav {
+        padding: 4rem 2rem 12rem;
+        gap: 10rem;
+    }
+
+    .username {
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    .username span {
+        font-size: 2rem;
+    }
+
+    .user i, .username i {
+        font-size: 2.5rem;
+    }
+
+    .open__nav__links {
+        gap: 7rem;
+    }
+
+    .open__nav__links li a {
+        font-size: 2rem;
+    }
 }

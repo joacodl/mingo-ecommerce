@@ -20,7 +20,7 @@ const Nav = ({ onMenuOpening }) => {
     if (!menuOpen) {
       return 'bi bi-list'
     } else {
-      return 'bi bi-x'
+      return 'bi bi-x-lg'
     }
   }
 
@@ -33,7 +33,7 @@ const Nav = ({ onMenuOpening }) => {
         <section className={styles.icons}>
           <i class="bi bi-heart"></i>
           <i class="bi bi-cart2"></i>
-          <i className={`${iconShown()} ${styles.menuIcon}`} onClick={menuOpeningHandler}></i>
+          <i className={iconShown()} onClick={menuOpeningHandler}></i>
         </section>
         
     </nav>

@@ -26,7 +26,7 @@
   bottom: 3rem;
   display: flex;
   gap: 2rem;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   position: absolute;
 }
 
@@ -73,12 +73,49 @@
 
 .slider article {
   border-radius: 5px;
-  height: 8rem;
+  /* height: 8rem; */
   overflow: hidden;
   width: 8rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .slider article img {
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.5);
   width: 100%;
+  display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+  .main {
+    padding: 2rem 4rem;
+  }
+
+  .slogan {
+    font-size: 3rem;
+    position: absolute;
+    top: 30rem;
+    width: 35rem;
+    text-transform: uppercase;
+  }
+
+  .slogan span {
+    font-size: 3rem;
+  }
+
+  .nuevos__ingresos {
+    gap: 2.5rem;
+  }
+
+  .nuevos__ingresos__title {
+    min-width: 20%;
+    height: 15rem;
+  }
+
+  .nuevos__ingresos__title h3 {
+    font-size: 3rem;
+  }
+
+  .slider article {
+    width: 15rem;
+  }
 }

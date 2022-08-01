@@ -2,12 +2,16 @@
     padding: 0 0 10rem 2rem;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    align-items: flex-end;
+    gap: 4rem;
 }
 
 .list {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 120%;
 }
 
 .list li {
@@ -36,7 +40,37 @@
     padding: 0 0 1rem;
 }
 
-.list li h3{
-    font-weight: 400;
-    font-size: 1.6rem;
+.img__wrapper {
+    /* width: 30%; */
+    height: 100%;
+    overflow: hidden;
+}
+
+.img__wrapper img {
+    display: block;
+    height: 100%;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .rooms {
+        padding: 0 4rem 10rem 4rem;
+        align-items: center;
+    }
+
+    .list {
+        width: 50%;
+    }
+
+    .number {
+        font-size: 1.6rem;
+    }
+
+    .img__wrapper {
+        width: auto;
+        height: 100%;
+    }
+
 }

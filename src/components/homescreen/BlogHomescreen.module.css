@@ -1,5 +1,5 @@
 .blog {
-  padding: 0 2rem 10rem;
+  padding: 10rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -23,16 +23,16 @@
 }
 
 .blog__cards {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .card {
   display: flex;
   align-items: center;
   width: 100%;
-  border: 2px solid black;
+  outline: 2px solid black;
 }
 
 .img__container {
@@ -49,6 +49,8 @@
 .info {
   width: 50%;
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .description {
@@ -61,9 +63,47 @@
   -webkit-box-orient: vertical;
 }
 
-
 .link {
-    display: block;
-    text-align: end;
-    text-decoration: underline;
+  display: block;
+  text-align: end;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+
+  .blog {
+    gap: 3rem;
+  }
+
+  .ver__todo * {
+    font-size: 2rem;
+  }
+
+  .blog__cards {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 47.5%;
+  }
+
+  .img__container {
+    width: 40%;
+    overflow: hidden;
+  }
+
+  .img__container img {
+    width: auto;
+    height: 100%;
+  }
+
+  .info {
+    width: 60%;
+    padding: 3rem 2rem;
+  }
+
+  .description {
+    margin: 0.75rem 0 1rem;
+  }
 }
